@@ -5,6 +5,7 @@ import { MarkerType, Position } from "reactflow";
 import Node1 from "./Node1";
 import Node2 from "./Node2";
 import Node3 from "./Node3";
+import FloatingEdge from './FloatingEdge'
 
 import "reactflow/dist/style.css";
 
@@ -12,6 +13,10 @@ const nodeTypes = {
   selectorNode1: Node1,
   selectorNode2: Node2,
   selectorNode3: Node3,
+};
+
+const edgeTypes: any = {
+  floating: FloatingEdge,
 };
 
 const initialNodes: any = [
@@ -98,16 +103,19 @@ const initialEdges = [
     id: "e1-2",
     source: "1",
     target: "2",
+    type: "floating"
   },
   {
     id: "e3-4",
     source: "3",
     target: "4",
+    type: "floating"
   },
   {
     id: "e5-6",
     source: "5",
     target: "6",
+    type: "floating"
   },
   {
     id: "e2-7",
@@ -217,6 +225,7 @@ export default function App() {
           nodes={initialNodes}
           edges={initialEdges}
           nodeTypes={nodeTypes}
+          edgeTypes={edgeTypes}
           className={styles.intersectionFlow}
         />
       </div>

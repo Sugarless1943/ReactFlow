@@ -20,19 +20,19 @@ export default memo(() => {
         type="target"
         position={Position.Left}
         id="a"
-        style={{ top: 20, background: "#555" }}
+        style={{ top: 20.5, background: "#555" }}
       />
       <Handle
         type="target"
         position={Position.Left}
         id="b"
-        style={{ bottom: 64, top: "auto", background: "#555" }}
+        style={{ bottom: 63.5, top: "auto", background: "#555" }}
       />
       <Handle
         type="target"
         position={Position.Left}
         id="c"
-        style={{ bottom: 14, top: "auto", background: "#555" }}
+        style={{ bottom: 13.5, top: "auto", background: "#555" }}
       />
       <Handle
         type="source"
