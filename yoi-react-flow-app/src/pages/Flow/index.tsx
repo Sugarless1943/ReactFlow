@@ -2,14 +2,16 @@ import React from "react";
 import ReactFlow from "reactflow";
 import styles from "./index.less";
 import { MarkerType, Position } from "reactflow";
-import totalNode1 from "./totalNode1";
-import totalNode2 from "./totalNode2";
+import Node1 from "./Node1";
+import Node2 from "./Node2";
+import Node3 from "./Node3";
 
 import "reactflow/dist/style.css";
 
 const nodeTypes = {
-  selectorNode1: totalNode1,
-  selectorNode2: totalNode2,
+  selectorNode1: Node1,
+  selectorNode2: Node2,
+  selectorNode3: Node3,
 };
 
 const initialNodes: any = [
@@ -19,7 +21,6 @@ const initialNodes: any = [
     position: { x: 50, y: 50 },
     data: { label: "1" },
     sourcePosition: Position.Right,
-    targetPosition: Position.Left,
   },
   {
     id: "2",
@@ -34,7 +35,6 @@ const initialNodes: any = [
     position: { x: 50, y: 100 },
     data: { label: "3" },
     sourcePosition: Position.Right,
-    targetPosition: Position.Left,
   },
   {
     id: "4",
@@ -71,21 +71,26 @@ const initialNodes: any = [
   {
     id: "9",
     position: { x: 650, y: 175 },
-    data: { label: "9" },
-    style: {
-      width: 100,
-      height: 100,
-      display: "flex",
-      alignItems: "center",
-      justifyContent: "center",
-    },
-    sourcePosition: Position.Right,
-    targetPosition: Position.Left,
+    type: "selectorNode3",
   },
   {
     id: "10",
     type: "selectorNode2",
     position: { x: 850, y: 155 },
+  },
+  {
+    id: "11",
+    data: { label: "11" },
+    type: "input",
+    position: { x: 800, y: 35 },
+    sourcePosition: Position.Left,
+  },
+  {
+    id: "12",
+    data: { label: "12" },
+    type: "output",
+    position: { x: 450, y: 430 },
+    targetPosition: Position.Right,
   },
 ];
 const initialEdges = [
@@ -152,6 +157,7 @@ const initialEdges = [
       height: 20,
     },
     type: "smoothstep",
+    targetHandle: "c",
     // animated: true,
     // style: { stroke: '#f00' },
   },
@@ -165,6 +171,7 @@ const initialEdges = [
       height: 20,
     },
     type: "smoothstep",
+    targetHandle: "c",
     // animated: true,
     // style: { stroke: '#f00' },
   },
@@ -178,8 +185,27 @@ const initialEdges = [
       height: 20,
     },
     type: "smoothstep",
+    sourceHandle: "d",
     // animated: true,
     // style: { stroke: '#f00' },
+  },
+  {
+    id: "e11-9",
+    source: "11",
+    target: "9",
+    type: "smoothstep",
+    sourceHandle: "a",
+    animated: true,
+    style: { stroke: "#f00" },
+  },
+  {
+    id: "e9-12",
+    source: "9",
+    target: "12",
+    type: "smoothstep",
+    sourceHandle: "b",
+    animated: true,
+    style: { stroke: "#f00" },
   },
 ];
 
