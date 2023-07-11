@@ -1,0 +1,22 @@
+.flow {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    :global {
+        .react-flow__panel {
+            a {
+                display: none;
+            }
+        }
+    }
+}
+
+.intersectionFlow {
+    :global {
+        .react-flow__handle {
+            opacity: 0;
+        }
+    }
+}

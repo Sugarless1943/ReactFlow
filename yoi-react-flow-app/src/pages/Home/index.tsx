@@ -1,10 +1,9 @@
 import { useEffect, useState } from "react";
 import styles from "./index.less";
+import Flow from "../Flow";
 
 const HomePage: React.FC = () => {
-  return <div>
-      1112
-  </div>;
+  return <Flow />;
 };
 
 export default HomePage;
