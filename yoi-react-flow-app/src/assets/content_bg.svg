@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1881px" height="1042px" viewBox="0 0 1881 1042" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 17</title>
+    <defs>
+        <linearGradient x1="0%" y1="293.680866%" x2="100%" y2="293.680866%" id="linearGradient-1">
+            <stop stop-color="#015A67" offset="0%"></stop>
+            <stop stop-color="#00AECD" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="34.6113669%" y1="0%" x2="65.3886331%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#015A67" offset="0%"></stop>
+            <stop stop-color="#70EFF9" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#00AECD" offset="0%"></stop>
+            <stop stop-color="#70EFF9" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="0%" id="linearGradient-4">
+            <stop stop-color="#015A67" offset="0%"></stop>
+            <stop stop-color="#70EFF9" offset="49.7212016%"></stop>
+            <stop stop-color="#015A67" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="34.593826%" y1="0%" x2="65.406174%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#015A67" offset="0%"></stop>
+            <stop stop-color="#70EFF9" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-6">
+            <stop stop-color="#00AECD" offset="0%"></stop>
+            <stop stop-color="#70EFF9" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="0%" id="linearGradient-7">
+            <stop stop-color="#015A67" offset="0%"></stop>
+            <stop stop-color="#70EFF9" offset="49.7212016%"></stop>
+            <stop stop-color="#015A67" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="0%" id="linearGradient-8">
+            <stop stop-color="#0092FF" offset="0%"></stop>
+            <stop stop-color="#70EFF9" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-9">
+            <stop stop-color="#70EFF9" offset="0%"></stop>
+            <stop stop-color="#015A67" offset="26.7203378%"></stop>
+            <stop stop-color="#70EFF9" offset="53.62472%"></stop>
+            <stop stop-color="#015A67" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="35.0983956%" y1="0%" x2="64.9016044%" y2="100%" id="linearGradient-10">
+            <stop stop-color="#015A67" offset="0%"></stop>
+            <stop stop-color="#70EFF9" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="0%" id="linearGradient-11">
+            <stop stop-color="#015A67" offset="0%"></stop>
+            <stop stop-color="#70EFF9" offset="49.7212016%"></stop>
+            <stop stop-color="#015A67" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="0%" id="linearGradient-12">
+            <stop stop-color="#015A67" offset="0%"></stop>
+            <stop stop-color="#70EFF9" offset="49.7212016%"></stop>
+            <stop stop-color="#015A67" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="基准分析" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="排放监测与策略查询" transform="translate(-20.000000, -20.000000)">
+            <g id="编组-17" transform="translate(20.000000, 20.937554)">
+                <g id="中下" transform="translate(720.166786, 1038.757848)" stroke-width="2">
+                    <line x1="268.317186" y1="0.5" x2="448.26678" y2="0.5" id="路径-6备份-10" stroke="#00AECD" stroke-dasharray="6"></line>
+                    <line x1="0" y1="0.5" x2="152.831909" y2="0.5" id="路径-6备份-2" stroke="url(#linearGradient-1)"></line>
+                    <line x1="177.846771" y1="0.5" x2="241.641233" y2="0.5" id="路径-6备份-7" stroke="#00AECD"></line>
+                    <line x1="157.435544" y1="0.5" x2="173.42851" y2="0.5" id="路径-6备份-9" stroke="#00AECD"></line>
+                    <line x1="246.435544" y1="0.5" x2="262.42851" y2="0.5" id="路径-6备份-11" stroke="#00AECD"></line>
+                </g>
+                <g id="右下" transform="translate(1162.497067, 969.000000)">
+                    <g id="编组备份" transform="translate(698.658569, 35.031223) scale(1, -1) translate(-698.658569, -35.031223) translate(679.224206, 0.000000)">
+                        <path d="M2.82681649,-1.63069558e-12 L38.8687268,36.0624458 L38.8687268,70.0624458 L35.8704351,70.0624458 L35.87,38.719 L5.77279544e-13,2.82842712 L2.82681649,-1.63069558e-12 Z" id="形状结合" fill="url(#linearGradient-2)"></path>
+                        <path d="M38.8289046,29.0521897 L14.8823934,5.08147545 L17.7092099,2.25304833 L34.8303934,19.4502034 L34.8311823,1.71320344 L38.8289046,1.71320344 L38.8289046,29.0521897 Z" id="形状结合" fill="url(#linearGradient-3)"></path>
+                    </g>
+                    <polyline id="路径-2备份" stroke="url(#linearGradient-4)" transform="translate(353.299741, 39.086570) scale(1, -1) translate(-353.299741, -39.086570) " points="0 8.06244584 669.54121 8.06244584 693.913551 31.5451825 693.913551 58.0624458 706.599481 70.1106934"></polyline>
+                    <g id="编组-2" transform="translate(405.704488, 61.757848)" stroke="#70EFF9" stroke-width="2">
+                        <line x1="3.03815299e-13" y1="8.5" x2="85.5164042" y2="8.5" id="路径-6备份"></line>
+                        <line x1="94.5261332" y1="8.5" x2="121.766748" y2="8.5" id="路径-6备份-3"></line>
+                        <line x1="130.492084" y1="8.30459832" x2="263.220255" y2="8.5" id="路径-6备份-5"></line>
+                        <line x1="123.442537" y1="8.5" x2="129.001558" y2="8.5" id="路径-6备份-4"></line>
+                        <line x1="87.4630371" y1="8.5" x2="93.0220582" y2="8.5" id="路径-6备份-6"></line>
+                    </g>
+                </g>
+                <g id="左下" transform="translate(0.000000, 969.000000)">
+                    <g id="编组备份-2" transform="translate(19.445436, 35.031223) scale(-1, -1) translate(-19.445436, -35.031223) ">
+                        <path d="M2.82842712,1.0125234e-13 L38.890873,36.0624458 L38.890873,70.0624458 L35.890873,70.0624458 L35.89,38.718 L-3.55271368e-15,2.82842712 L2.82842712,1.0125234e-13 Z" id="形状结合" fill="url(#linearGradient-5)"></path>
+                        <path d="M38.8510281,29.0521897 L14.890873,5.08147545 L17.7193001,2.25304833 L34.850873,19.4502034 L34.8510281,1.71320344 L38.8510281,1.71320344 L38.8510281,29.0521897 Z" id="形状结合" fill="url(#linearGradient-6)"></path>
+                    </g>
+                    <polyline id="路径-2备份-4" stroke="url(#linearGradient-7)" transform="translate(365.952772, 39.086570) scale(-1, -1) translate(-365.952772, -39.086570) " points="11.3100388 8.06244584 683.512026 8.06244584 707.898253 31.5451825 707.898253 58.0624458 720.591411 70.1106934"></polyline>
+                    <g id="编组-3" transform="translate(45.648232, 59.608911)" stroke="url(#linearGradient-8)" stroke-width="2">
+                        <path d="M162.920994,10.4535348 L169.936983,10.4535348 M171.920994,10.4535348 L178.936983,10.4535348 M180.920994,10.4535348 L187.936983,10.4535348 M189.920994,10.4535348 L196.936983,10.4535348 M198.920994,10.4535348 L205.936983,10.4535348 M207.920994,10.4535348 L214.936983,10.4535348 M216.920994,10.4535348 L223.936983,10.4535348 M225.920994,10.4535348 L232.936983,10.4535348 M234.920994,10.4535348 L241.936983,10.4535348 M243.920994,10.4535348 L250.936983,10.4535348 M253.920994,10.4535348 L260.936983,10.4535348 M262.920994,10.4535348 L269.936983,10.4535348 M271.920994,10.4535348 L278.936983,10.4535348 M280.920994,10.4535348 L287.936983,10.4535348 M289.920994,10.4535348 L296.936983,10.4535348 M298.920994,10.4535348 L305.936983,10.4535348 M307.920994,10.4535348 L314.936983,10.4535348" id="形状结合"></path>
+                    </g>
+                </g>
+                <g id="两侧" transform="translate(1.012713, 75.062446)" stroke-width="2">
+                    <line x1="6.4872868" y1="5" x2="6.4872868" y2="883.937554" id="路径-3备份" stroke="url(#linearGradient-9)"></line>
+                    <line x1="0.5" y1="-2.37497203e-13" x2="0.5" y2="889.007836" id="路径-4" stroke="#015A67" stroke-dasharray="7"></line>
+                    <line x1="1871.99441" y1="5" x2="1871.99441" y2="883.937554" id="路径-3" stroke="url(#linearGradient-9)"></line>
+                    <line x1="1878.00712" y1="0" x2="1878.00712" y2="889.007836" id="路径-4备份" stroke="#015A67" stroke-dasharray="7"></line>
+                </g>
+                <g id="右上" transform="translate(1419.260513, 0.000000)">
+                    <g id="编组" transform="translate(421.848614, 0.000000)"></g>
+                    <path d="M424.26081,1.41421356 L460.323256,37.4766594 L460.317597,37.4812136 L460.323256,37.4812805 L460.323256,70.0624458 L458.323256,70.0624458 L458.322597,38.3042136 L422.846597,2.82842712 L424.26081,1.41421356 Z" id="形状结合" fill="url(#linearGradient-10)"></path>
+                    <polyline id="路径-2" stroke="url(#linearGradient-11)" points="0 2.85541098 412.160101 1.06244584 436.546328 24.5451825 436.546328 51.0624458 449.239487 63.1106934"></polyline>
+                </g>
+                <g id="左上" transform="translate(0.109127, 0.000000)">
+                    <g id="编组备份-3" transform="translate(19.445436, 35.031223) scale(-1, 1) translate(-19.445436, -35.031223) translate(0.000000, 0.000000)"></g>
+                    <path d="M1.78311144,2.06244584 L37.8455573,38.1248917 L37.8398979,38.1294458 L37.8455573,38.1295128 L37.8455573,70.7106781 L35.8455573,70.7106781 L35.8448979,38.9524458 L0.368897875,3.4766594 L1.78311144,2.06244584 Z" id="形状结合" fill="url(#linearGradient-10)" transform="translate(19.107228, 36.386562) scale(-1, 1) translate(-19.107228, -36.386562) "></path>
+                    <polyline id="路径-2备份-3" stroke="url(#linearGradient-12)" transform="translate(236.374969, 32.086570) scale(-1, 1) translate(-236.374969, -32.086570) " points="11.3120854 2.85541098 424.356421 1.06244584 448.742648 24.5451825 448.742648 51.0624458 461.435806 63.1106934"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

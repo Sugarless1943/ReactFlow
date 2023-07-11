@@ -1,0 +1,43 @@
+// 重置样式
+@import "../node_modules/normalize.css/normalize.css";
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.pageLoading {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .img {
+    margin-bottom: 10px;
+    animation: breath 1s infinite ease-in-out alternate;
+  }
+
+  @keyframes breath {
+    0% {
+      opacity: 0.4;
+      transform: scale(0.95);
+    }
+
+    50% {
+      opacity: 1;
+      transform: scale(1);
+    }
+
+    100% {
+      opacity: 0.4;
+      transform: scale(0.95);
+    }
+  }
+
+  .text {
+    font-size: 16px;
+    font-size: 500;
+  }
+}

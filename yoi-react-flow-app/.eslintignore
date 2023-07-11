@@ -1,0 +1,25 @@
+# 忽略目录
+
+node_modules/
+build/
+dist/
+tmp/
+lib/
+tests/
+coverage/
+demo/
+.ice/
+.umi/
+.umi-production/
+.umi-test/
+
+## 忽略文件
+
+**/*-min.js
+**/*.min.js
+**/*.bundle.js
+.umirc.ts
+package-lock.json
+yarn.lock
+build.config.js
+build-api-docs.js
