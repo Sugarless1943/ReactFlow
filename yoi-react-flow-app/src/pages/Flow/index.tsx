@@ -5,7 +5,7 @@ import { MarkerType, Position } from "reactflow";
 import Node1 from "./Node1";
 import Node2 from "./Node2";
 import Node3 from "./Node3";
-import FloatingEdge from './FloatingEdge'
+import FloatingEdge from "./FloatingEdge";
 
 import "reactflow/dist/style.css";
 
@@ -26,6 +26,9 @@ const initialNodes: any = [
     position: { x: 50, y: 50 },
     data: { label: "1" },
     sourcePosition: Position.Right,
+    selectable: false,
+    connectable: false,
+    draggable: false,
   },
   {
     id: "2",
@@ -33,6 +36,9 @@ const initialNodes: any = [
     data: { label: "2" },
     targetPosition: Position.Left,
     sourcePosition: Position.Right,
+    selectable: false,
+    connectable: false,
+    draggable: false,
   },
   {
     id: "3",
@@ -40,6 +46,9 @@ const initialNodes: any = [
     position: { x: 50, y: 100 },
     data: { label: "3" },
     sourcePosition: Position.Right,
+    selectable: false,
+    connectable: false,
+    draggable: false,
   },
   {
     id: "4",
@@ -47,6 +56,9 @@ const initialNodes: any = [
     data: { label: "4" },
     targetPosition: Position.Left,
     sourcePosition: Position.Right,
+    selectable: false,
+    connectable: false,
+    draggable: false,
   },
   {
     id: "5",
@@ -55,6 +67,9 @@ const initialNodes: any = [
     data: { label: "5" },
     sourcePosition: Position.Right,
     targetPosition: Position.Left,
+    selectable: false,
+    connectable: false,
+    draggable: false,
   },
   {
     id: "6",
@@ -62,26 +77,33 @@ const initialNodes: any = [
     data: { label: "6" },
     targetPosition: Position.Left,
     sourcePosition: Position.Right,
+    selectable: false,
+    connectable: false,
+    draggable: false,
   },
   {
     id: "7",
     type: "selectorNode1",
     position: { x: 450, y: 50 },
+    draggable: false,
   },
   {
     id: "8",
     type: "selectorNode1",
     position: { x: 450, y: 250 },
+    draggable: false,
   },
   {
     id: "9",
     position: { x: 650, y: 175 },
     type: "selectorNode3",
+    draggable: false,
   },
   {
     id: "10",
     type: "selectorNode2",
     position: { x: 850, y: 155 },
+    draggable: false,
   },
   {
     id: "11",
@@ -89,6 +111,9 @@ const initialNodes: any = [
     type: "input",
     position: { x: 800, y: 35 },
     sourcePosition: Position.Left,
+    selectable: false,
+    connectable: false,
+    draggable: false,
   },
   {
     id: "12",
@@ -96,6 +121,9 @@ const initialNodes: any = [
     type: "output",
     position: { x: 450, y: 430 },
     targetPosition: Position.Right,
+    selectable: false,
+    connectable: false,
+    draggable: false,
   },
 ];
 const initialEdges = [
@@ -103,19 +131,22 @@ const initialEdges = [
     id: "e1-2",
     source: "1",
     target: "2",
-    type: "floating"
+    style: { stroke: "#ccc" },
+    // type: "floating"
   },
   {
     id: "e3-4",
     source: "3",
     target: "4",
-    type: "floating"
+    style: { stroke: "#ccc" },
+    // type: "floating"
   },
   {
     id: "e5-6",
     source: "5",
     target: "6",
-    type: "floating"
+    style: { stroke: "#ccc" },
+    // type: "floating"
   },
   {
     id: "e2-7",
@@ -126,7 +157,8 @@ const initialEdges = [
       width: 20,
       height: 20,
     },
-    type: "smoothstep",
+    // type: "floating",
+    style: { stroke: "#ccc" },
     targetHandle: "a",
   },
   {
@@ -138,7 +170,7 @@ const initialEdges = [
       width: 20,
       height: 20,
     },
-    type: "smoothstep",
+    style: { stroke: "#ccc" },
     targetHandle: "b",
   },
   {
@@ -150,8 +182,8 @@ const initialEdges = [
       width: 20,
       height: 20,
     },
-    type: "smoothstep",
     targetHandle: "c",
+    style: { stroke: "#ccc" },
     // animated: true,
     // style: { stroke: '#f00' },
   },
@@ -165,6 +197,7 @@ const initialEdges = [
       height: 20,
     },
     type: "smoothstep",
+    style: { stroke: "#ccc" },
     targetHandle: "c",
     // animated: true,
     // style: { stroke: '#f00' },
@@ -179,6 +212,7 @@ const initialEdges = [
       height: 20,
     },
     type: "smoothstep",
+    style: { stroke: "#ccc" },
     targetHandle: "c",
     // animated: true,
     // style: { stroke: '#f00' },
@@ -192,8 +226,8 @@ const initialEdges = [
       width: 20,
       height: 20,
     },
-    type: "smoothstep",
     sourceHandle: "d",
+    style: { stroke: "#ccc" },
     // animated: true,
     // style: { stroke: '#f00' },
   },
@@ -227,6 +261,9 @@ export default function App() {
           nodeTypes={nodeTypes}
           edgeTypes={edgeTypes}
           className={styles.intersectionFlow}
+          preventScrolling={false}
+          panOnDrag={false}
+          fitView
         />
       </div>
     </div>

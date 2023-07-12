@@ -21,23 +21,27 @@ export default memo(() => {
         position={Position.Left}
         id="a"
         style={{ top: 20.5, background: "#555" }}
+        isConnectable={false}
       />
       <Handle
         type="target"
         position={Position.Left}
         id="b"
         style={{ bottom: 63.5, top: "auto", background: "#555" }}
+        isConnectable={false}
       />
       <Handle
         type="target"
         position={Position.Left}
         id="c"
         style={{ bottom: 13.5, top: "auto", background: "#555" }}
+        isConnectable={false}
       />
       <Handle
         type="source"
         position={Position.Right}
         style={{ background: "#555" }}
+        isConnectable={false}
       />
     </>
   );
